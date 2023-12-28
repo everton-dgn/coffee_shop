@@ -2,9 +2,15 @@ import { useCallback, type ReactNode } from 'react'
 import { StyleSheet, View } from 'react-native'
 
 import {
+  Poppins_100Thin,
+  Poppins_200ExtraLight,
+  Poppins_300Light,
   Poppins_400Regular,
   Poppins_500Medium,
   Poppins_600SemiBold,
+  Poppins_700Bold,
+  Poppins_800ExtraBold,
+  Poppins_900Black,
   useFonts
 } from '@expo-google-fonts/poppins'
 import { Ionicons } from '@expo/vector-icons'
@@ -25,9 +31,15 @@ const S = StyleSheet.create({
 
 const ManProvider = ({ children }: { children: ReactNode }) => {
   const [fontsLoaded, fontError] = useFonts({
+    Poppins_100Thin,
+    Poppins_200ExtraLight,
+    Poppins_300Light,
     Poppins_400Regular,
     Poppins_500Medium,
     Poppins_600SemiBold,
+    Poppins_700Bold,
+    Poppins_800ExtraBold,
+    Poppins_900Black,
     ...Ionicons.font
   })
 

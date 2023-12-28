@@ -5,9 +5,9 @@ import T from 'theme'
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    backgroundColor: T.colors.white,
+    backgroundColor: T.colors.primaryWhiteHex,
     flex: 1,
-    gap: T.spacings.giga,
+    gap: T.spacings._36,
     justifyContent: 'center'
   }
 })

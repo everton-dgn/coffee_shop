@@ -6,9 +6,9 @@ const CustomTheme: Theme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    card: T.colors.blueLight,
-    border: T.colors.gray,
-    notification: T.colors.alert
+    card: T.colors.primaryDarkGreyHex,
+    border: T.colors.secondaryLightGreyHex,
+    notification: T.colors.primaryDarkGreyHex
   }
 }
 

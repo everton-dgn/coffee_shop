@@ -4,15 +4,15 @@ import T from 'theme'
 
 const S = StyleSheet.create({
   text: {
-    color: T.colors.white,
+    color: T.colors.primaryWhiteHex,
     fontFamily: T.fonts.familiesWeights.regular,
-    fontSize: T.fonts.sizes.sm
+    fontSize: T.fonts.sizes._14
   },
   touchableOpacity: {
-    backgroundColor: T.colors.blue,
-    borderRadius: T.borders.radius.sm,
-    paddingHorizontal: T.spacings.md,
-    paddingVertical: T.spacings.xs
+    backgroundColor: T.colors.primaryOrangeHex,
+    borderRadius: T.borders.radius._4,
+    paddingHorizontal: T.spacings._16,
+    paddingVertical: T.spacings._4
   }
 })
 
