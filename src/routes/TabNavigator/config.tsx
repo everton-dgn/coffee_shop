@@ -22,9 +22,7 @@ const screenOptionsStyles = {
 } as const
 
 const icons: Record<keyof RootTabParamList, IoniconsName> = {
-  HomeStack: 'home',
-  Example: 'chatbubble',
-  Information: 'ios-information-circle'
+  HomeStack: 'home'
 } as const
 
 export const getScreenOptions = ({ route }: GetScreenOptionsProps) =>

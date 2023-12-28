@@ -16,6 +16,4 @@ export type TabBarIconProps = {
 
 export type RootTabParamList = {
   HomeStack: NavigatorScreenParams<RootStackParamList>
-  Example: undefined
-  Information: undefined
 }
