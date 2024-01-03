@@ -10,15 +10,15 @@ import T from 'theme'
 
 const screenOptionsStyles = {
   headerStyle: {
-    backgroundColor: T.colors.primaryDarkGreyHex
+    backgroundColor: T.colors.primary_dark_grey
   },
   headerTitleStyle: {
-    fontFamily: T.fonts.familiesWeights.medium,
-    color: T.colors.primaryWhiteHex
+    fontFamily: T.fonts.families_weights.medium,
+    color: T.colors.primary_white
   },
   headerTitleAlign: 'center',
-  tabBarActiveTintColor: T.colors.primaryOrangeHex,
-  tabBarInactiveTintColor: T.colors.primaryLightGreyHex
+  tabBarActiveTintColor: T.colors.primary_orange,
+  tabBarInactiveTintColor: T.colors.primary_light_grey
 } as const
 
 const icons: Record<keyof RootTabParamList, IoniconsName> = {

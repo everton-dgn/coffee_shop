@@ -2,16 +2,16 @@ import T from 'theme'
 
 export const screenOptionsStyles = {
   headerStyle: {
-    backgroundColor: T.colors.primaryBlackHex
+    backgroundColor: T.colors.primary_black
   },
   headerTitleStyle: {
-    fontFamily: T.fonts.familiesWeights.medium,
-    color: T.colors.primaryWhiteHex
+    fontFamily: T.fonts.families_weights.medium,
+    color: T.colors.primary_white
   },
   headerBackTitleStyle: {
-    fontFamily: T.fonts.familiesWeights.regular
+    fontFamily: T.fonts.families_weights.regular
   },
-  headerTintColor: T.colors.primaryWhiteHex,
+  headerTintColor: T.colors.primary_white,
   headerTitleAlign: 'center',
   headerBackTitleVisible: false
 } as const

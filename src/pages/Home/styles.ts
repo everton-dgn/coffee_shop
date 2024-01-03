@@ -5,7 +5,7 @@ import T from 'theme'
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    backgroundColor: T.colors.primaryWhiteHex,
+    backgroundColor: T.colors.primary_white,
     flex: 1,
     gap: T.spacings._36,
     justifyContent: 'center'

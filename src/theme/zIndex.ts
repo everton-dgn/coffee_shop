@@ -1,5 +1,5 @@
 const zIndex = {
-  alwaysOnTop: 5000,
+  always_on_top: 5000,
   modal: 600,
   overlay: 500,
   header: 400,

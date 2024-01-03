@@ -1,12 +1,13 @@
-const familiesWeights = {
+// eslint-disable-next-line @typescript-eslint/naming-convention
+const families_weights = {
   thin: 'Poppins_100Thin',
-  extraLight: 'Poppins_200ExtraLight',
+  extra_light: 'Poppins_200ExtraLight',
   light: 'Poppins_300Light',
   regular: 'Poppins_400Regular',
   medium: 'Poppins_500Medium',
-  semiBold: 'Poppins_600SemiBold',
+  semi_bold: 'Poppins_600SemiBold',
   bold: 'Poppins_700Bold',
-  extraBold: 'Poppins_800ExtraBold',
+  extra_bold: 'Poppins_800ExtraBold',
   black: 'Poppins_900Black'
 } as const
 
@@ -22,7 +23,7 @@ const sizes = {
 } as const
 
 const fonts = {
-  familiesWeights,
+  families_weights,
   sizes
 } as const
 
