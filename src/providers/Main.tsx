@@ -1,4 +1,4 @@
-import { useCallback, type ReactNode } from 'react'
+import { type ReactNode, useCallback } from 'react'
 import { StyleSheet, View } from 'react-native'
 
 import {

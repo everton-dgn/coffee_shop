@@ -21,6 +21,8 @@ DerivedData
 ios/.xcode.env.local
 
 # Android/android studio/vscode
+ios
+android
 build/
 .idea/
 .vscode/
